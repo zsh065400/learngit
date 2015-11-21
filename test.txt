@@ -1,0 +1,29 @@
+$ git config --global user.name "Your Name"
+$ git config --global user.email "email@example.com"
+
+$ mkdir dirName 创建目录文件夹
+$ cd dirName 转入对应的文件夹内
+$ pwd 显示当前所在文件夹
+
+$ git init 初始化当前工作区
+
+$ git add fileName 添加一次修改到暂存区
+$ git commit -m "detail" 提交修改到版本库
+
+$ git status 查看当前工作区状态
+ 
+$ git diff fileName 查看工作区文件与版本库文件的不同
+
+$ git log --pretty=oneline 输出工作区的版本信息
+
+$ git reset --hard HEAD^   HEAD~N 回退到指定版本
+
+$ git reflog 输出历史操作信息
+
+git checkout -- fileName 撤销工作区的修改
+
+$ git reset HEAD readme.txt 撤销提交到暂存区的修改
+
+$ rm test.txt 删除指定文件
+
+$ git rm fileName 在版本库中删除该文件

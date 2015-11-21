@@ -1,6 +1,8 @@
 $ git config --global user.name "Your Name"
 $ git config --global user.email "email@example.com"
 
+$ cat fileName 显示文件内容
+
 $ mkdir dirName 创建目录文件夹
 $ cd dirName 转入对应的文件夹内
 $ pwd 显示当前所在文件夹

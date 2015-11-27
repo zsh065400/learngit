@@ -28,8 +28,18 @@ $ git reset HEAD readme.txt 撤销提交到暂存区的修改
 
 $ rm test.txt 删除指定文件
 
+<<<<<<< ef1583ca0bb63ee502505ba6af8089ada549d6ad
 $ git rm fileName 在版本库中删除该文件
 
 $ git push -u origin master 第一次推送至远程仓库
 
 $ git remote add origin git@github.com/zsh065400/respository.git
+=======
+$ git rm fileName 删除指定文件
+
+$ git push -u origin master 推送到master分支并建立关联
+
+$ git remote add origin git@github.com/zsh065400/respository.git 关联到库
+
+$ git clone git@github.com/zsh065400/respository.git 克隆到本地
+>>>>>>> learn more

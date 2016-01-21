@@ -1,33 +1,34 @@
 $ git config --global user.name "Your Name"
 $ git config --global user.email "email@example.com"
 
-$ cat fileName ÏÔÊ¾ÎÄ¼şÄÚÈİ
+$ cat fileName æ˜¾ç¤ºæ–‡ä»¶å†…å®¹
 
-$ mkdir dirName ´´½¨Ä¿Â¼ÎÄ¼ş¼Ğ
-$ cd dirName ×ªÈë¶ÔÓ¦µÄÎÄ¼ş¼ĞÄÚ
-$ pwd ÏÔÊ¾µ±Ç°ËùÔÚÎÄ¼ş¼Ğ
+$ mkdir dirName åˆ›å»ºç›®å½•æ–‡ä»¶å¤¹
+$ cd dirName è½¬å…¥å¯¹åº”çš„æ–‡ä»¶å¤¹å†…
+$ pwd æ˜¾ç¤ºå½“å‰æ‰€åœ¨æ–‡ä»¶å¤¹
 
-$ git init ³õÊ¼»¯µ±Ç°¹¤×÷Çø
+$ git init åˆå§‹åŒ–å½“å‰å·¥ä½œåŒº
 
-$ git add fileName Ìí¼ÓÒ»´ÎĞŞ¸Äµ½Ôİ´æÇø
-$ git commit -m "detail" Ìá½»ĞŞ¸Äµ½°æ±¾¿â
+$ git add fileName æ·»åŠ ä¸€æ¬¡ä¿®æ”¹åˆ°æš‚å­˜åŒº
+$ git commit -m "detail" æäº¤ä¿®æ”¹åˆ°ç‰ˆæœ¬åº“
 
-$ git status ²é¿´µ±Ç°¹¤×÷Çø×´Ì¬
+$ git status æŸ¥çœ‹å½“å‰å·¥ä½œåŒºçŠ¶æ€
  
-$ git diff fileName ²é¿´¹¤×÷ÇøÎÄ¼şÓë°æ±¾¿âÎÄ¼şµÄ²»Í¬
+$ git diff fileName æŸ¥çœ‹å·¥ä½œåŒºæ–‡ä»¶ä¸ç‰ˆæœ¬åº“æ–‡ä»¶çš„ä¸åŒ
 
-$ git log --pretty=oneline Êä³ö¹¤×÷ÇøµÄ°æ±¾ĞÅÏ¢
+$ git log --pretty=oneline è¾“å‡ºå·¥ä½œåŒºçš„ç‰ˆæœ¬ä¿¡æ¯
 
-$ git reset --hard HEAD^   HEAD~N »ØÍËµ½Ö¸¶¨°æ±¾
+$ git reset --hard HEAD^   HEAD~N å›é€€åˆ°æŒ‡å®šç‰ˆæœ¬
 
-$ git reflog Êä³öÀúÊ·²Ù×÷ĞÅÏ¢
+$ git reflog è¾“å‡ºå†å²æ“ä½œä¿¡æ¯
 
-git checkout -- fileName ³·Ïú¹¤×÷ÇøµÄĞŞ¸Ä
+git checkout -- fileName æ’¤é”€å·¥ä½œåŒºçš„ä¿®æ”¹
 
-$ git reset HEAD readme.txt ³·ÏúÌá½»µ½Ôİ´æÇøµÄĞŞ¸Ä
+$ git reset HEAD readme.txt æ’¤é”€æäº¤åˆ°æš‚å­˜åŒºçš„ä¿®æ”¹
 
-$ rm test.txt É¾³ıÖ¸¶¨ÎÄ¼ş
+$ rm test.txt åˆ é™¤æŒ‡å®šæ–‡ä»¶
 
+<<<<<<< HEAD
 $ git rm fileName ÔÚ°æ±¾¿âÖĞÉ¾³ı¸ÃÎÄ¼ş
 
 $ git push -u origin master µÚÒ»´ÎÍÆËÍÖÁÔ¶³Ì²Ö¿â
@@ -35,3 +36,20 @@ $ git push -u origin master µÚÒ»´ÎÍÆËÍÖÁÔ¶³Ì²Ö¿â
 $ git remote add origin git@github.com/zsh065400/respository.git Ìí¼Ó¹ØÁª
 
 $ git clone git@github.com/zsh065400/respository.git ¿ËÂ¡µ½±¾µØÄ¿Â¼ÏÂ
+=======
+<<<<<<< ef1583ca0bb63ee502505ba6af8089ada549d6ad
+$ git rm fileName åœ¨ç‰ˆæœ¬åº“ä¸­åˆ é™¤è¯¥æ–‡ä»¶
+
+$ git push -u origin master ç¬¬ä¸€æ¬¡æ¨é€è‡³è¿œç¨‹ä»“åº“
+
+$ git remote add origin git@github.com/zsh065400/respository.git
+=======
+$ git rm fileName åˆ é™¤æŒ‡å®šæ–‡ä»¶
+
+$ git push -u origin master æ¨é€åˆ°masteråˆ†æ”¯å¹¶å»ºç«‹å…³è”
+
+$ git remote add origin git@github.com/zsh065400/respository.git å…³è”åˆ°åº“
+
+$ git clone git@github.com/zsh065400/respository.git å…‹éš†åˆ°æœ¬åœ°
+>>>>>>> learn more
+>>>>>>> dev
